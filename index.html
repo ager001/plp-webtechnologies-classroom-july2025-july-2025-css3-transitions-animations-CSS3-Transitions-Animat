@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midenga's Card Flip with Modal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Part 1: CSS Transitions and Animations -->
+        <h1>Interactive Card Flip Demo</h1>
+        <div class="card-container">
+            <div class="card">
+                <div class="card-front">
+                    <h2>Card Front</h2>
+                    <p>Hover or click to flip!</p>
+                    <button class="flip-button">Flip Card</button>
+                </div>
+                <div class="card-back">
+                    <h2>Card Back</h2>
+                    <p>Details revealed!</p>
+                    <button class="show-modal">Show Modal</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Part 3: Modal for combined CSS/JS animation -->
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <h2>Modal Popup</h2>
+                <p>This modal slides in and fades out!</p>
+                <button class="close-modal">Close</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
